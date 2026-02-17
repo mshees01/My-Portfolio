@@ -1070,7 +1070,7 @@ export default function App() {
                 <div className="mt-4 rounded-2xl border border-white/10 bg-white/5 p-4">
                   <div className="text-xs text-white/60">Best-fit roles</div>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    {["Frontend Intern", "React Developer Intern", "Web Developer Intern", "Full Stack Intern (Learning)"].map((r) => (
+                    {["Frontend Intern", "React Developer Intern", "Web Developer Intern", "Full Stack Intern"].map((r) => (
                       <span key={r} className="rounded-full bg-white/10 px-3 py-1 text-xs text-white/85">
                         {r}
                       </span>
